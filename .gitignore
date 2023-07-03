@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+*.env
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Log files
+*.log
+
+# Dependency management files 
+pyproject.toml
+poetry.lock
+
+# Exclude installed dependencies
+**/site-packages/
+**/dist-packages/
+
+lambda/
+*.pdf
+
+# Ignore CDK synthesized files
+cdk.out/
+
+# Ignore CDK context file
+cdk.context.json
+
+# Ignore CDK assets
+cdk.context.assets.json
+
+# Ignore CDK CloudFormation templates
+*.template.json
+
+# Ignore CDK Python virtual environment
+.venv/
+
+# Ignore local development files
+.env
+*.log
